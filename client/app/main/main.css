@@ -1,0 +1,99 @@
+.thing-form {
+  margin: 20px 0;
+}
+
+#banner {
+  border-bottom: none;
+  margin-top: -20px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.hero-unit {
+  position: relative;
+  padding: 40px 15px;
+  color: #F5F5F5;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  //background-image: linear-gradient(120deg, rgb(12, 62, 141), #04d9c0);
+}
+
+.navbar-text {
+  margin-left: 15px;
+}
+
+.transparent {
+  background: transparent;
+
+}
+
+
+@keyframes vo{
+
+ 0%{
+   opacity:0;
+  transform: translate3d(0,50px,0);
+    }
+
+  100%{
+opacity:1;
+    transform: translate3d(0,0,0);
+  }
+}
+
+@keyframes slik{
+
+ 0%{
+   opacity:0;
+  transform: translateY(20px);
+    }
+
+  100%{
+opacity:1;
+    transform: translateY(0px);
+  }
+
+}
+.slika{
+
+}
+.naslov{
+
+animation: vo 1.7s ease-out ;
+
+
+}
+
+
+.stock{
+animation: vo 1.7s ease-out ;
+
+
+}
+
+
+.anim{
+ 
+  animation: vo 2s ease-out;
+ 
+}
+
+@keyframes anim {
+  
+  0%{
+    
+   opacity:0;
+  transform: translateY(20px);
+    }
+
+  100%{
+    
+opacity:1;
+    transform: translateY(0px);
+  }
+  
+}
