@@ -15,3 +15,24 @@
 	
 	color: white !important;
 }
+
+
+.klas{
+	
+	background: orangered;
+	
+	animation: shrink 0.5s ease-out;
+	animation-fill-mode: forwards;
+    transform-origin: top left;
+}
+
+@keyframes shrink{
+	0%{
+		
+		transform:scale(1,1);
+	}
+	100%{
+		
+		transform:scale(0.5,1);
+	}
+}
